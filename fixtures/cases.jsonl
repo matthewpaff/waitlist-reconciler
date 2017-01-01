@@ -1,1 +1,2 @@
 {"description": "reject timeouts for unknown requests", "expected_error": true, "id": "waitlist-0000", "input": {"events": [{"event": "timeout", "request_id": "request-0"}]}}
+{"description": "reject zero-sized waitlist parties", "expected_error": true, "id": "waitlist-0001", "input": {"events": [{"correlation_id": "corr-1", "event": "request", "party_size": 0, "request_id": "request-1"}]}}
