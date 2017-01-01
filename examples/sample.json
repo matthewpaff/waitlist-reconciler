@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "event": "request",
+      "request_id": "request-5",
+      "correlation_id": "corr-5",
+      "party_size": 6
+    },
+    {
+      "event": "timeout",
+      "request_id": "request-5"
+    }
+  ]
+}
