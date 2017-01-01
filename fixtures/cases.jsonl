@@ -1,0 +1,1 @@
+{"description": "reject timeouts for unknown requests", "expected_error": true, "id": "waitlist-0000", "input": {"events": [{"event": "timeout", "request_id": "request-0"}]}}
